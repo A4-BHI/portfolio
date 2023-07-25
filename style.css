@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+
+.sidebar{
+    background-color: rgb(127, 247, 247);
+    width: 20vw;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    height: 100vh;
+    font-size: 20px;
+    
+}
+
+.sidebar nav li{
+    padding: 20px;
+    color: brown;
+    font-size: larger;
+}
+.sidebar nav li :hover{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    
+}
+.sidebar nav a{
+    text-decoration: none;
+}
+.main{
+    background-color: aquamarine;
+    width: 150vw;
+}
+.container{
+    display: flex;
+
+}
+
+.infocontainer{
+    background-color: darkorange;
+    margin: 112px auto;
+    height: 60vh;
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.devpic img{
+    height: 60vh;
+   
+}
+ 
+.greet{
+    margin-left: 10vh;
+}
+
+.about{
+    margin-left: 19vh;
+}
+.devinfo {
+    font-style: italic;
+font-family: 'Fasthand', cursive;
+font-size: 4vh;
+display :flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.devinfo button{
+    padding: 1vh;
+    border-radius: 32px;
+    color: white;
+    background-color: black;
+    width: 248px;
+    margin-top: 2vh;
+    margin-left: 49vh;
+    cursor:pointer;
+
+}
+
+.devinfo button:hover{
+    color: black;
+    background-color: white;
+}
+
+
+
